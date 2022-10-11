@@ -1,5 +1,4 @@
 # Introduction to C Programming 
----
 
 ### Table of Contents
 
@@ -9,14 +8,14 @@
 
 As per programming traditions, our first program will be to print out "hello world" in the Terminal
 
-Code : [01\_helloworld.c](https://github.com/rugvedmhatre/c-programming/blob/main/01_hello_world.c)
+Code : [01\_hello\_world.c](https://github.com/rugvedmhatre/c-programming/blob/main/01_hello_world.c)
 
 - Header Files
   
   We start by importing standard input/output header file. This includes the functions we require to print out on the screen. [Learn more](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html#:~:text=A%20header%20file%20is%20a,preprocessing%20directive%20'%20%23include%20'.)
   
   ```
-  #include <stdio.h>
+  #include<stdio.h>
   ```
   
 
@@ -45,13 +44,13 @@ Code : [01\_helloworld.c](https://github.com/rugvedmhatre/c-programming/blob/mai
 To compile the program on a Mac, we run the following command:
 
 ```
-gcc 01_helloworld.c -o 01_helloworld.out
+gcc 01_hello_world.c -o 01_hello_world.out
 ```
 
-And to run the executable we run 01\_helloworld.out in Terminal:
+And to run the executable we run 01\_hello\_world.out in Terminal:
 
 ```
-./01_helloworld.out
+./01_hello_world.out
 ```
 
 We should get the output like:
